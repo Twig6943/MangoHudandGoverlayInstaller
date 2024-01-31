@@ -13,3 +13,5 @@ sudo echo "Categories=Utility;" >> "$goverlay_desktop_file"
 
 # Replace USER_PLACEHOLDER with the actual username
 sed -i "s|USER_PLACEHOLDER|$username|g" "$goverlay_desktop_file"
+echo -e "\e[0;31mRun the uninstall.sh command if you'd like to uninstall Goverlay & Mangohud.\e"
+read -p "Press enter to close this window."
