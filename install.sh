@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo RUN AS NON-ROOT. THE SCRIPT WILL BEGIN IN 10 SECONDS.
+sleep 10
 echo Installing MangoHud
 cd /home/$USER/
 mkdir MangoHudandGoverlay
