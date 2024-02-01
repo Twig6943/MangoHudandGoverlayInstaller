@@ -20,4 +20,4 @@ chmod +x uninstalldesktopfile.sh
 
 4.Enjoy 😎👊
 
-(%80 of the code is written by ChatGPT. 💀)
+(%80 of the code was written by ChatGPT. 💀)
