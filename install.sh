@@ -41,7 +41,7 @@ else
     echo "Failed to download MangoHud tar.gz. Please check the script and try again."
 fi
 cd /home/$USER/MangoHudandGoverlay/MangoHud
-chmod +X /home/$USER/MangoHudandGoverlay/MangoHud/mangohud-setup.sh
+chmod +x /home/$USER/MangoHudandGoverlay/MangoHud/mangohud-setup.sh
 /home/$USER/MangoHudandGoverlay/MangoHud/mangohud-setup.sh install
 
 echo Installing Goverlay
