@@ -88,5 +88,7 @@ echo Removing unneccessary files
 rm /home/$USER/MangoHudandGoverlay/*gz
 rm /home/$USER/MangoHudandGoverlay/*xz
 wget https://raw.githubusercontent.com/benjamimgois/goverlay/main/data/icons/128x128/goverlay.png -O goverlay.png -P /home/$USER/MangoHudandGoverlay/
+chmod +x /home/$USER/Downloads/uninstall.sh
+chmod +x /home/$USER/Downloads/uninstalldesktopfile.sh
 chmod +x /home/$USER/Downloads/desktopfile.sh
 sudo /home/$USER/Downloads/desktopfile.sh
