@@ -14,4 +14,4 @@ chmod +x install.sh
 
 4.Enjoy 😎👊
 
-(%80 of the code was written by ChatGPT. 💀)
+(%90 of the code was written by ChatGPT. 💀)
