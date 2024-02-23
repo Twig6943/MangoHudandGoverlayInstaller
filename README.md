@@ -6,7 +6,7 @@ A simple bash script to install MangoHud &amp; Goverlay.
 
 1.Extract the scripts to your /home/Downloads folder.
 
-2.Mark the script as executable.
+2.Mark the install.sh as executable.
 
 chmod +x install.sh
 
