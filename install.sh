@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo RUN AS NON-ROOT. THE SCRIPT WILL BEGIN IN 10 SECONDS.
+echo This script was made for debian based distros (ubuntu,mint..) if you're running a non-debian based distro you might need to install libqt5pas-dev in order to get goverlay to work.)
 sleep 10
 echo Installing MangoHud
 cd /home/$USER/
@@ -83,7 +84,7 @@ if [ $? -eq 0 ]; then
 else
     echo "Failed to download goverlay tar.xz. Please check the script and try again."
 fi
-
+sudo apt-get install -y libqt5pas-dev
 echo Removing unneccessary files
 rm /home/$USER/MangoHudandGoverlay/*gz
 rm /home/$USER/MangoHudandGoverlay/*xz
