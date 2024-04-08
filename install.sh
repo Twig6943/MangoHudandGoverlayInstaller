@@ -42,7 +42,7 @@ else
     echo "Failed to download MangoHud tar.gz. Please check the script and try again."
 fi
 cd /home/$USER/MangoHudandGoverlay/MangoHud
-chmod +x /home/$USER/MangoHudandGoverlay/MangoHud/mangohud-setup.sh
+sudo chmod +x /home/$USER/MangoHudandGoverlay/MangoHud/mangohud-setup.sh
 /home/$USER/MangoHudandGoverlay/MangoHud/mangohud-setup.sh install
 
 echo Installing Goverlay
@@ -89,7 +89,7 @@ echo Removing unneccessary files
 rm /home/$USER/MangoHudandGoverlay/*gz
 rm /home/$USER/MangoHudandGoverlay/*xz
 wget https://raw.githubusercontent.com/benjamimgois/goverlay/main/data/icons/128x128/goverlay.png -O goverlay.png -P /home/$USER/MangoHudandGoverlay/
-chmod +x /home/$USER/Downloads/uninstall.sh
-chmod +x /home/$USER/Downloads/uninstalldesktopfile.sh
-chmod +x /home/$USER/Downloads/desktopfile.sh
+sudo chmod +x /home/$USER/Downloads/uninstall.sh
+sudo chmod +x /home/$USER/Downloads/uninstalldesktopfile.sh
+sudo chmod +x /home/$USER/Downloads/desktopfile.sh
 sudo /home/$USER/Downloads/desktopfile.sh
