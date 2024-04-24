@@ -2,7 +2,7 @@
 
 ![Untitled](https://github.com/Twig6943/MangoHudandGoverlayInstaller/assets/119701717/1d51e6cd-d4ea-4647-a624-3df13c42900d)
 
-A simple bash script to install MangoHud &amp; Goverlay.
+A simple bash script to install the latest versions of MangoHud & Goverlay.
 
 1.Run this 
 ```
