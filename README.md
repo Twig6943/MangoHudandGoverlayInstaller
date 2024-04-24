@@ -4,14 +4,18 @@
 
 A simple bash script to install MangoHud &amp; Goverlay.
 
-1.Extract the scripts to your /home/Downloads folder.
-
-2.Mark the install.sh as executable.
-
+1.Run this 
+```
+cd /home/$USER/Downloads
+git clone https://github.com/Twig6943/MangoHudandGoverlayInstaller
+sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/desktopfile.sh /home/$USER/Downloads
+sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstalldesktopfile.sh /home/$USER/Downloads
+sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh /home/$USER/Downloads
+sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstall.sh /home/$USER/Downloads
 chmod +x install.sh
+/home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh
+```
 
-3.Run the install.sh file without sudo.
-
-4.Enjoy 😎👊
+2.Enjoy 😎👊
 
 (%90 of the code was written by ChatGPT. 💀)
