@@ -4,6 +4,11 @@
 
 A simple bash script to install the latest versions of MangoHud & Goverlay.
 
+Dependencies
+```
+git,wget
+```
+
 1.Run this 
 ```
 cd /home/$USER/Downloads
