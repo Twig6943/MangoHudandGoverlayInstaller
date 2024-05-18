@@ -6,7 +6,7 @@ A simple bash script to install the latest versions of MangoHud & Goverlay.
 
 Dependencies
 ```
-git,wget
+git,wget,libqt5pas-dev
 ```
 
 1.Run this 
