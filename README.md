@@ -19,6 +19,7 @@ sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh /home/$USE
 sudo cp /home/$USER/Downloads/MangoHudandGoverlayInstaller/uninstall.sh /home/$USER/Downloads
 sudo chmod +x install.sh
 /home/$USER/Downloads/MangoHudandGoverlayInstaller/install.sh
+sudo rm -r /home/$USER/Downloads/MangoHudandGoverlayInstaller
 ```
 
 2.Enjoy 😎👊
