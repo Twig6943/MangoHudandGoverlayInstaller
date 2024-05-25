@@ -92,4 +92,5 @@ wget https://raw.githubusercontent.com/benjamimgois/goverlay/main/data/icons/128
 sudo chmod +x /home/$USER/Downloads/uninstall.sh
 sudo chmod +x /home/$USER/Downloads/uninstalldesktopfile.sh
 sudo chmod +x /home/$USER/Downloads/desktopfile.sh
+sudo ln -s /home/twig/MangoHudandGoverlay/goverlay /usr/local/bin/goverlay
 sudo /home/$USER/Downloads/desktopfile.sh
