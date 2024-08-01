@@ -25,3 +25,4 @@ sudo rm -r /home/$USER/Downloads/MangoHudandGoverlayInstaller
 2.Enjoy 😎👊
 
 (%90 of the code was written by ChatGPT. 💀)
+(I used to have some weird ass issues with the .deb packages of these projects. I've switched to EndeavourOS regardless of that issue. Probably going to erase this repo one day as its pretty much useless.)
